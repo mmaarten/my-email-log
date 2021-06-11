@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       My Email Log
  * Plugin URI:        https://github.com/mmaarten/my-email-log
- * Description:       Stores information about email send from this website.
+ * Description:       Logs information from send emails.
  * Version:           1.0.0
  * Requires at least: 5.0
  * Requires PHP:      5.6
