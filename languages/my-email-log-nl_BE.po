@@ -1,0 +1,208 @@
+# Copyright (C) 2021 Maarten Menten
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: My Email Log 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-email-log\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-11 21:05+0200\n"
+"PO-Revision-Date: 2021-06-11 21:09+0200\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Domain: my-email-log\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl_BE\n"
+
+#. Plugin Name of the plugin
+msgid "My Email Log"
+msgstr "Mijn e-maillogboek"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/mmaarten/my-email-log"
+msgstr "https://github.com/mmaarten/my-email-log"
+
+#. Description of the plugin
+msgid "Stores information about email send from this website."
+msgstr ""
+"Slaat informatie op over e-mails die vanaf deze website worden verzonden."
+
+#. Author of the plugin
+msgid "Maarten Menten"
+msgstr "Maarten Menten"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/maartenm/"
+msgstr "https://profiles.wordpress.org/maartenm/"
+
+#: src/App.php:38
+msgctxt "Post type general name"
+msgid "Email Logs"
+msgstr "E-mail logs"
+
+#: src/App.php:39
+msgctxt "Post type singular name"
+msgid "Email Log"
+msgstr "E-mail Log"
+
+#: src/App.php:40
+msgctxt "Admin Menu text"
+msgid "Email Logs"
+msgstr "E-mail logs"
+
+#: src/App.php:41
+msgctxt "Add New on Toolbar"
+msgid "Email Log"
+msgstr "E-mail Log"
+
+#: src/App.php:42
+msgid "Add New"
+msgstr "Nieuwe Toevoegen"
+
+#: src/App.php:43
+msgid "Add New Log"
+msgstr "Voeg nieuwe log toe"
+
+#: src/App.php:44
+msgid "New Log"
+msgstr "Nieuwe log"
+
+#: src/App.php:45
+msgid "Edit Log"
+msgstr "Bewerk log"
+
+#: src/App.php:46
+msgid "View Log"
+msgstr "Toon log"
+
+#: src/App.php:47
+msgid "All Logs"
+msgstr "Alle logs"
+
+#: src/App.php:48
+msgid "Search Logs"
+msgstr "Zoek logs"
+
+#: src/App.php:49
+msgid "Parent Logs:"
+msgstr "Parent Logs:"
+
+#: src/App.php:50
+msgid "No logs found."
+msgstr "Geen logs gevonden."
+
+#: src/App.php:51
+msgid "No logs found in Trash."
+msgstr "Geen logs gevonden in prullenbak."
+
+#: src/App.php:52
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Log Cover Image"
+msgstr "Log Omslagafbeelding"
+
+#: src/App.php:53
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr "Omslagafbeelding instellen"
+
+#: src/App.php:54
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr "Omslagafbeelding verwijderen"
+
+#: src/App.php:55
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr "Gebruik als omslagafbeelding"
+
+#: src/App.php:56
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Log archives"
+msgstr "Log Archieven"
+
+#: src/App.php:57
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into log"
+msgstr "Invoegen in log"
+
+#: src/App.php:58
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this log"
+msgstr "Geüpload naar dit log"
+
+#: src/App.php:59
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter logs list"
+msgstr "Filter logs lijsten"
+
+#: src/App.php:60
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Logs list navigation"
+msgstr "Navigatie logs lijsten"
+
+#: src/App.php:61
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Logs list"
+msgstr "Lijst met logs"
+
+#: src/App.php:157
+msgid "Data"
+msgstr "Gegevens"
+
+#: src/App.php:178 src/App.php:225
+msgid "Recipients"
+msgstr "Ontvangers"
+
+#: src/App.php:183 src/App.php:226
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: src/App.php:188
+msgid "Message"
+msgstr "Bericht"
+
+#: src/App.php:197
+msgid "Headers"
+msgstr "Headers"
+
+#: src/App.php:202
+msgid "attachments"
+msgstr "Bijlagen"
+
+#: src/App.php:207
+msgid "Send"
+msgstr "Verzonden"
+
+#: src/App.php:208 src/App.php:247
+msgid "yes"
+msgstr "ja"
+
+#: src/App.php:208 src/App.php:247
+msgid "no"
+msgstr "nee"
+
+#: src/App.php:212 src/App.php:228
+msgid "Error"
+msgstr "Fout"
+
+#: src/App.php:227
+msgid "Sent"
+msgstr "Verzonden"

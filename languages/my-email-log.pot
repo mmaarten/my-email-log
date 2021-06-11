@@ -1,0 +1,194 @@
+# Copyright (C) 2021 Maarten Menten
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: My Email Log 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-email-log\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-11T19:04:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: my-email-log\n"
+
+#. Plugin Name of the plugin
+msgid "My Email Log"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/mmaarten/my-email-log"
+msgstr ""
+
+#. Description of the plugin
+msgid "Stores information about email send from this website."
+msgstr ""
+
+#. Author of the plugin
+msgid "Maarten Menten"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/maartenm/"
+msgstr ""
+
+#: src/App.php:38
+msgctxt "Post type general name"
+msgid "Email Logs"
+msgstr ""
+
+#: src/App.php:39
+msgctxt "Post type singular name"
+msgid "Email Log"
+msgstr ""
+
+#: src/App.php:40
+msgctxt "Admin Menu text"
+msgid "Email Logs"
+msgstr ""
+
+#: src/App.php:41
+msgctxt "Add New on Toolbar"
+msgid "Email Log"
+msgstr ""
+
+#: src/App.php:42
+msgid "Add New"
+msgstr ""
+
+#: src/App.php:43
+msgid "Add New Log"
+msgstr ""
+
+#: src/App.php:44
+msgid "New Log"
+msgstr ""
+
+#: src/App.php:45
+msgid "Edit Log"
+msgstr ""
+
+#: src/App.php:46
+msgid "View Log"
+msgstr ""
+
+#: src/App.php:47
+msgid "All Logs"
+msgstr ""
+
+#: src/App.php:48
+msgid "Search Logs"
+msgstr ""
+
+#: src/App.php:49
+msgid "Parent Logs:"
+msgstr ""
+
+#: src/App.php:50
+msgid "No logs found."
+msgstr ""
+
+#: src/App.php:51
+msgid "No logs found in Trash."
+msgstr ""
+
+#: src/App.php:52
+msgctxt "Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Log Cover Image"
+msgstr ""
+
+#: src/App.php:53
+msgctxt "Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr ""
+
+#: src/App.php:54
+msgctxt "Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr ""
+
+#: src/App.php:55
+msgctxt "Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr ""
+
+#: src/App.php:56
+msgctxt "The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4"
+msgid "Log archives"
+msgstr ""
+
+#: src/App.php:57
+msgctxt "Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4"
+msgid "Insert into log"
+msgstr ""
+
+#: src/App.php:58
+msgctxt "Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this log"
+msgstr ""
+
+#: src/App.php:59
+msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter logs list"
+msgstr ""
+
+#: src/App.php:60
+msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Logs list navigation"
+msgstr ""
+
+#: src/App.php:61
+msgctxt "Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Logs list"
+msgstr ""
+
+#: src/App.php:157
+msgid "Data"
+msgstr ""
+
+#: src/App.php:178
+#: src/App.php:225
+msgid "Recipients"
+msgstr ""
+
+#: src/App.php:183
+#: src/App.php:226
+msgid "Subject"
+msgstr ""
+
+#: src/App.php:188
+msgid "Message"
+msgstr ""
+
+#: src/App.php:197
+msgid "Headers"
+msgstr ""
+
+#: src/App.php:202
+msgid "attachments"
+msgstr ""
+
+#: src/App.php:207
+msgid "Send"
+msgstr ""
+
+#: src/App.php:208
+#: src/App.php:247
+msgid "yes"
+msgstr ""
+
+#: src/App.php:208
+#: src/App.php:247
+msgid "no"
+msgstr ""
+
+#: src/App.php:212
+#: src/App.php:228
+msgid "Error"
+msgstr ""
+
+#: src/App.php:227
+msgid "Sent"
+msgstr ""
