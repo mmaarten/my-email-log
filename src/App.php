@@ -113,11 +113,11 @@ class App
 
         $is_html = 'text/html' === apply_filters('wp_mail_content_type', '');
 
-        update_post_meta($post_id, 'to', self::sanitizeTo($args['to']));
+        update_post_meta($post_id, 'to', self::cleanExpode(',', $args['to']));
         update_post_meta($post_id, 'subject', $args['subject']);
         update_post_meta($post_id, 'message', $args['message']);
-        update_post_meta($post_id, 'headers', self::sanitizeHeaders($args['headers']));
-        update_post_meta($post_id, 'attachments', self::sanitizeAttachments($args['attachments']));
+        update_post_meta($post_id, 'headers', self::cleanExpode("\n", $args['headers']));
+        update_post_meta($post_id, 'attachments', self::cleanExpode("\n", $args['attachments']));
         update_post_meta($post_id, 'is_sent', $is_sent);
         update_post_meta($post_id, 'error', $phpmailer->ErrorInfo);
         update_post_meta($post_id, 'is_html', $is_html);
@@ -129,31 +129,18 @@ class App
         return $is_sent;
     }
 
-    public static function sanitizeTo($to)
+    public static function cleanExpode($separator, $string)
     {
-        if (! is_array($to)) {
-            $to = explode(',', $to);
-            $to = array_map('trim', $to);
-            $to = array_filter($to);
+        if (is_array($string)) {
+            $array = $string;
+        } else {
+            $array = explode($separator, $string);
         }
 
-        return $to;
-    }
+        $array = array_map('trim', $array);
+        $array = array_filter($array);
 
-    public static function sanitizeHeaders($headers)
-    {
-        if (! is_array($headers)) {
-            $headers = explode("\n", $headers);
-            $headers = array_map('trim', $headers);
-            $headers = array_filter($headers);
-        }
-
-        return $headers;
-    }
-
-    public static function sanitizeAttachments($attachments)
-    {
-        return self::sanitizeHeaders($attachments);
+        return $array;
     }
 
     public static function getToUsers($emails)
