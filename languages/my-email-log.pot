@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-06-11T19:04:30+00:00\n"
+"POT-Creation-Date: 2021-06-12T10:50:57+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: my-email-log\n"
@@ -23,7 +23,7 @@ msgid "https://github.com/mmaarten/my-email-log"
 msgstr ""
 
 #. Description of the plugin
-msgid "Stores information about email send from this website."
+msgid "Logs information about emails send by use of the wp_mail function."
 msgstr ""
 
 #. Author of the plugin
@@ -34,161 +34,161 @@ msgstr ""
 msgid "https://profiles.wordpress.org/maartenm/"
 msgstr ""
 
-#: src/App.php:38
+#: src/App.php:30
 msgctxt "Post type general name"
 msgid "Email Logs"
 msgstr ""
 
-#: src/App.php:39
+#: src/App.php:31
 msgctxt "Post type singular name"
 msgid "Email Log"
 msgstr ""
 
-#: src/App.php:40
+#: src/App.php:32
 msgctxt "Admin Menu text"
 msgid "Email Logs"
 msgstr ""
 
-#: src/App.php:41
+#: src/App.php:33
 msgctxt "Add New on Toolbar"
 msgid "Email Log"
 msgstr ""
 
-#: src/App.php:42
+#: src/App.php:34
 msgid "Add New"
 msgstr ""
 
-#: src/App.php:43
+#: src/App.php:35
 msgid "Add New Log"
 msgstr ""
 
-#: src/App.php:44
+#: src/App.php:36
 msgid "New Log"
 msgstr ""
 
-#: src/App.php:45
+#: src/App.php:37
 msgid "Edit Log"
 msgstr ""
 
-#: src/App.php:46
+#: src/App.php:38
 msgid "View Log"
 msgstr ""
 
-#: src/App.php:47
+#: src/App.php:39
 msgid "All Logs"
 msgstr ""
 
-#: src/App.php:48
+#: src/App.php:40
 msgid "Search Logs"
 msgstr ""
 
-#: src/App.php:49
+#: src/App.php:41
 msgid "Parent Logs:"
 msgstr ""
 
-#: src/App.php:50
+#: src/App.php:42
 msgid "No logs found."
 msgstr ""
 
-#: src/App.php:51
+#: src/App.php:43
 msgid "No logs found in Trash."
 msgstr ""
 
-#: src/App.php:52
+#: src/App.php:44
 msgctxt "Overrides the “Featured Image” phrase for this post type. Added in 4.3"
 msgid "Log Cover Image"
 msgstr ""
 
-#: src/App.php:53
+#: src/App.php:45
 msgctxt "Overrides the “Set featured image” phrase for this post type. Added in 4.3"
 msgid "Set cover image"
 msgstr ""
 
-#: src/App.php:54
+#: src/App.php:46
 msgctxt "Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
 msgid "Remove cover image"
 msgstr ""
 
-#: src/App.php:55
+#: src/App.php:47
 msgctxt "Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
 msgid "Use as cover image"
 msgstr ""
 
-#: src/App.php:56
+#: src/App.php:48
 msgctxt "The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4"
 msgid "Log archives"
 msgstr ""
 
-#: src/App.php:57
+#: src/App.php:49
 msgctxt "Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4"
 msgid "Insert into log"
 msgstr ""
 
-#: src/App.php:58
+#: src/App.php:50
 msgctxt "Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4"
 msgid "Uploaded to this log"
 msgstr ""
 
-#: src/App.php:59
+#: src/App.php:51
 msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
 msgid "Filter logs list"
 msgstr ""
 
-#: src/App.php:60
+#: src/App.php:52
 msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
 msgid "Logs list navigation"
 msgstr ""
 
-#: src/App.php:61
+#: src/App.php:53
 msgctxt "Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4"
 msgid "Logs list"
 msgstr ""
 
-#: src/App.php:157
+#: src/App.php:169
 msgid "Data"
 msgstr ""
 
-#: src/App.php:178
-#: src/App.php:225
+#: src/App.php:190
+#: src/App.php:237
 msgid "Recipients"
 msgstr ""
 
-#: src/App.php:183
-#: src/App.php:226
+#: src/App.php:195
+#: src/App.php:238
 msgid "Subject"
 msgstr ""
 
-#: src/App.php:188
+#: src/App.php:200
 msgid "Message"
 msgstr ""
 
-#: src/App.php:197
+#: src/App.php:209
 msgid "Headers"
 msgstr ""
 
-#: src/App.php:202
+#: src/App.php:214
 msgid "attachments"
 msgstr ""
 
-#: src/App.php:207
+#: src/App.php:219
 msgid "Send"
 msgstr ""
 
-#: src/App.php:208
-#: src/App.php:247
+#: src/App.php:220
+#: src/App.php:259
 msgid "yes"
 msgstr ""
 
-#: src/App.php:208
-#: src/App.php:247
+#: src/App.php:220
+#: src/App.php:259
 msgid "no"
 msgstr ""
 
-#: src/App.php:212
-#: src/App.php:228
+#: src/App.php:224
+#: src/App.php:240
 msgid "Error"
 msgstr ""
 
-#: src/App.php:227
+#: src/App.php:239
 msgid "Sent"
 msgstr ""
