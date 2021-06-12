@@ -1,5 +1,5 @@
 # My Email Logs
-Logs information from send emails.
+Logs information about emails send by use of the wp_mail function.
 
 ## Requirements
 - [Composer](https://getcomposer.org/)

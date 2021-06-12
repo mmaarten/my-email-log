@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       My Email Log
  * Plugin URI:        https://github.com/mmaarten/my-email-log
- * Description:       Logs information from send emails.
+ * Description:       Logs information about emails send by use of the wp_mail function.
  * Version:           1.0.0
  * Requires at least: 5.0
  * Requires PHP:      5.6
