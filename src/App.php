@@ -91,6 +91,17 @@ class App
         global $phpmailer;
 
         /**
+         * 'wp_mail' filters is already called at his moment.
+         * Remove filters
+         */
+
+        global $wp_filter;
+
+        $wp_mail_filters = $wp_filter['wp_mail'];
+
+        unset($wp_filter['wp_mail']);
+
+        /**
          * Send email
          */
 
@@ -99,6 +110,12 @@ class App
         $is_sent = wp_mail($args['to'], $args['subject'], $args['message'], $args['headers'], $args['attachments']);
 
         add_filter(current_filter(), [__CLASS__, __FUNCTION__], 10, 2);
+
+        /**
+         * Put 'wp_mail' filters back.
+         */
+
+        $wp_filter['wp_mail'] = $wp_mail_filters;
 
         /**
          * Save post
